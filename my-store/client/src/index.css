@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Estilo para el Navbar */
+.navbar-custom {
+  background-color: #434743; /* Cambia por el color que desees para el navbar */
+  color: white; /* Color del texto en el navbar */
+}
+
+/* Estilo para el texto del navbar */
+.navbar-custom .nav-link {
+  color: rgb(250, 192, 192); /* Color de los enlaces en el navbar */
+}
+
+.navbar-custom .nav-link:hover {
+  color: #FFD700; /* Color del enlace al pasar el mouse (opcional) */
+}
+
+/* Estilo para el fondo de la aplicación */
+/* index.css */
+body {
+  background-color: #94b6ad !important; /* Cambia por el color que desees */
+}
+html, body {
+  height: 100%; /* Ocupar el 100% de la altura de la ventana */
+  margin: 0; /* Eliminar márgenes por defecto */
+}
+
+/* Contenedor principal */
+.container {
+  min-height: calc(20vh - 20px); /* Ajusta la altura mínima para que el footer esté al final, cambia 120px por la altura total de tu navbar y footer */
+  padding-bottom: px; /* Añadir espacio inferior para que no se superponga con el footer */
+}
+
+/* Estilos para el footer */
+footer {
+  position: relative; 
+  bottom: 0; 
+  width: 100%; 
+  height: 100px; 
+  background-color: #4CAF50; /* Color del fondo del footer */
+  color: blue; /* Cambia el color del texto a azul */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
